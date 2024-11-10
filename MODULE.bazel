@@ -1,0 +1,4 @@
+module(
+    name = "eabase",
+    version = "3.21.23",
+)

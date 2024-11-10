@@ -47,3 +47,12 @@ Testing/*
 /buckaroo/
 .buckconfig.local
 BUCKAROO_DEPS
+
+
+#Bazel
+**/bazel-out
+**/bazel-bin
+**/bazel-gravity
+**/external
+**/bazel-testlogs
+MODULE.bazel.lock

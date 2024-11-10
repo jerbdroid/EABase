@@ -1,0 +1,7 @@
+cc_library(
+    name = "eabase",
+    hdrs = glob(["include/Common/**/*.h"]),
+    includes = ["include/Common/"],
+    strip_include_prefix = "include/Common/",
+    visibility = ["//visibility:public"],
+)
